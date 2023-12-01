@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.loadc{
+    width: 100%;
+    max-height:300vh !important;
+    overflow: hidden !important;
+    position: fixed;
+    z-index: 99999;
+    transition: all 2s ease;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    
+}
+.skeleton {
+    animation: skeleton-loading .5s linear infinite alternate;
+    
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 80%);
+    }
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
+  }
+  
+  .skeleton-text {
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .skeleton-text__body {
+    width: 75%;
+    height: 20vh;
+  }
+  
+  .skeleton-footer {
+    width: 30%;
+    height: 20vh;
+  }
+.ori{
+    background-color: #c5d5cb;
+    padding: 0;
+}
+.ori li{
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 1000;
+}
+.ori2 {
+    padding: 0 !important;
+    /* position: fixed !important;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 2px 3px 10px 5px black; */
+}
+.ori .ava img{
+    margin-left: -2px;
+    margin-top: -10px;
+}
+.ori img{
+    margin-left: 100px;
+}
+.notification{
+    position: relative;
+}
+.notification span{
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background-color: black;
+    font-size: 8px;
+    border-radius: 50%;
+}
+/* styling header done */
+
+/* styling content */
+.back{
+    background-image: url(/img/clem-onojeghuo-fY8Jr4iuPQM-unsplash\ \(1\).jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #c5d5cb;
+    opacity: .6;
+}
+
+.search{
+    height: 25vh;
+}
+.search h1{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 120px;
+}
+.search form{
+    position: relative;
+    bottom: 120px;
+}
+.search input{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 25px;
+    display: block;
+    height: 100%;
+    padding: 8px 40px 8px 20px;
+    box-shadow: 0 5px 8px 3px black;
+    position: relative;
+    text-align: center;
+    height: 7vh;
+}
+.search button{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom:7px;
+    left: 73.3%;
+    height: 7vh;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius:0;
+    font-weight: bolder;
+    background-color: #c5d5cb;
+    font-weight: bolder;
+}
+.search button:hover{
+    background-color: chocolate;
+    color: white;
+}
+.search i{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    right: 0;
+    left: 21%;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+}
+
+.airtel h1{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.air{
+    transition: .5s;
+}
+.air:hover{
+    transform: translateY(-20px);
+}
+.card{
+    border: 2px solid #c5d5cb;
+    box-shadow: 2px 3px 4px 1px black;
+}
+.card:hover{
+    background-color: #c5d5cb;
+}
+.air img{
+    margin-left: 70px;
+}
+.air h5{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.air p{
+    color: black;
+    text-decoration: none;
+}
+.air a{
+    text-decoration: none;
+}
+.air button{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: #c5d5cb;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.air button:hover{
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+.but button{
+    border: 2px solid none;
+    background-color: #c5d5cb;
+    box-shadow: 0 2px 4px 1px black;
+    font-weight: bolder;
+}
+.but button:hover{
+    background-color: chocolate;
+    color: white;
+}
+.txt{
+    background-color: beige;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.txt h1{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+.txt span{
+    font-weight: lighter;
+    text-align: center;
+}
+.txt p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+table{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90% !important;
+}
+.tab{
+    height: 30vh;
+}
+
+/* styling content done */
+
+/* pagination */
+.pagin a{
+    color: black;
+    font-weight: bold;
+}
+.pagin a:hover{
+    background-color: #c5d5cb;
+    color: black;
+}
+.pagin{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* pagination */
+
+/* footer */
+.footer{
+    background-color: #c5d5cb;
+    color: black;
+    padding-bottom: 30px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.f1 img{
+    margin-top: 50px;
+}
+.f1 p{
+    font-weight: bold;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.f2 h3{
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 29px;
+    margin-bottom: 50px;
+}
+.f2 li{
+    display: flex;
+    font-weight: bold;
+}
+
+.f3 h3{
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: -80px;
+    margin-bottom: 50px;
+}
+.f3 li{
+    display: flex;
+    font-weight: bold;
+    margin-left: -80px;
+}
+.f2 a:hover{
+    color: rgb(143, 143, 14);
+}
+.f4 h3{
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+.f4 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin-left: -50px;
+    outline: none;
+    background: none;
+    color: black;
+}
+.f4 input:hover{
+    border-bottom: 3px solid chocolate;
+    color: chocolate;
+}
+.f4 input::placeholder{
+    color: black;
+}
+.f4 input:hover::placeholder{
+    color: chocolate;
+}
+.f4 button{
+    background-color: #c5d5cb;
+    font-weight: bolder;
+    margin-left: -50px;
+    margin-top: 30px;
+    border: 3px solid chocolate;
+    border-radius: 0;
+}
+.f4 button:hover{
+    background-color: beige;
+    border: 3px solid chocolate;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+}
+.social li{
+    display: inline-flex;
+    font-size: 300%;
+    margin-left: 100px;
+    margin-top: 70px;
+    color: black;
+}
+.social a{
+    color: black;
+    transition: .5s;
+}
+.social a:hover{
+    color: chocolate;
+    transform: translateY(-10px);
+}
+
+.cright p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.cright{
+    background-color: black;
+    padding-bottom: 2px;
+}
+/* footer */
+
+/* about */
+.about{
+    height: 50vh;
+    padding-top: 50px;
+    background: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position: center;
+    background-color: navy;
+}
+.about h1{
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0 0 25px cyan, 0 0 50px cyan, 0 0 75px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+/* about */
+
+/* signup */
+.sign h1{
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.sign form{
+    font-weight: bold;
+    text-transform: capitalize; 
+    width: 70%;
+    margin-left: 15%;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 0 2px 2px .5px black;
+    background-color: #c5d5cb;
+}
+.sign button{
+    width: 50%;
+    margin-left: 25%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.sign button:hover{
+    background-color: chocolate;
+}
+.sign i{
+    position: relative;
+    left: 850px;
+    bottom: 32px;
+    font-size: larger;
+    cursor: pointer;
+}
+/* signup */
+
+/* job */
+.filter h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.filter{
+    position: sticky;
+    overflow: auto;
+    top: 50px;
+    width: 100%;
+    height: 90vh;
+    
+}
+.filter::-webkit-scrollbar{
+    display: none;
+}
+.filter ul{
+    display: inline-flex;
+}
+.filter a{
+    text-decoration: none;
+    color: black;
+}
+.filter li{
+    display: inline-flex;
+    font-size: large;
+    font-weight: bold;
+}
+.cardo{
+    margin-left: 50px;
+    padding: 20px;
+    margin-top: 50px !important;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 1px black;
+}
+.filter2{
+    border-left: .5px solid grey;
+}
+.filter2 h1{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.filter2 h5{
+    font-weight: bold;
+}
+.filter2 a{
+    background-color: #c5d5cb;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.filter2 a:hover{
+    background-color: chocolate;
+}
+
+.jdets{
+    margin-left: 100px !important;
+    width: 90% !important;
+    background: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 70vh;
+    background-position: center;
+    position: relative;
+    z-index: 99;
+}
+.jdets a{
+    background-color: #c5d5cb;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-weight: bold;
+    color: black;
+}
+.jdets a:hover{
+    background-color: chocolate;
+    border: none;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.jdets1 h5{
+    font-weight: bolder;
+}
+.jdets1 p{
+    margin-left: 50px;
+    background-color: #c5d5cb;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.jdets2 h4{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.jdets2 p{
+    font-weight: bold;
+    font-size: large;
+}
+/* job */
+
+/* profile */
+.pavat img{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.pavat{
+    background-color: #c5d5cb;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+.pavat a{
+    text-decoration: none;
+    color: black;
+}
+.pform{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.pform button{
+    background-color: #c5d5cb;
+    border: none;
+    font-weight: bolder;
+    color: black;
+    width: 30%;
+    margin-left: 35%;
+}
+.pform button:hover{
+    background-color: chocolate;
+}
+/* profile */
+
